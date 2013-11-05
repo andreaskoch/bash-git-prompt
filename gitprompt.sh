@@ -56,7 +56,7 @@ function git_prompt_config()
   GIT_PROMPT_CLEAN="${BoldGreen}✔"
 
   # Various variables you might want for your PS1 prompt instead
-  local Time12a="\$(date +%H:%M)"
+  local Time12a="\h \$(date +%H:%M)"
   # local Time12a="(\$(date +%H:%M:%S))"
   # local Time12a="(\@))"
   local PathShort="\w"
